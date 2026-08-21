@@ -1,19 +1,54 @@
 * {
   font-family: "Roboto", sans-serif;
 }
-.header {
+body {
   display: flex;
-  gap: 8px;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+}
+a {
+  text-decoration: none;
+}
+ul {
+  list-style: none;
+}
+button {
+  border-radius: 5px;
+  padding: 8px 24px;
+  font-size: 16px;
+  font-weight: 800;
+  border: none;
+}
+.header {
+  margin: 0;
+  padding: 4px;
+}
+.header-items {
+  display: flex;
   align-items: center;
   justify-content: space-between;
 }
-.logo {
-}
-.header-logo {
+.header-links {
+  display: flex;
+  gap: 48px;
+  margin-right: 64px;
 }
 .hero {
+  display: flex;
+  padding: 148px;
 }
 .hero-right {
+}
+.hero-left {
+  display: flex;
+  max-width: 420px;
+}
+.main-text,
+.secondry-text {
+  width: 420px;
 }
 .main-text {
   font-size: 48px;
@@ -22,24 +57,17 @@
 }
 .signup {
 }
-.hero-left {
-}
-.fetures .title {
-  font-size: 36px;
-  color: #1f2937;
-  font-weight: 900;
-}
 .growth {
-}
-.cap-title {
-}
-.caption {
 }
 .security {
 }
 .speed {
 }
 .support {
+}
+.cap-title {
+}
+.caption {
 }
 .quote-div {
   background-color: #e5e7eb;
@@ -56,6 +84,9 @@
 }
 .how-to-sign {
 }
+.call-to-action .signup {
+  border: 2px solid white;
+}
 .footer {
 }
 .header,
@@ -68,18 +99,13 @@
   font-size: 18px;
   color: #cdcfd3;
 }
-a {
-  text-decoration: none;
-}
 .call-to-action,
 .signup {
   background-color: #3882f6;
+  color: #fff;
 }
-.header-links {
-  display: flex;
-  gap: 8px;
-  margin-right: 24px;
-}
-ul {
-  list-style: none;
+.fetures .title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
