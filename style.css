@@ -1,60 +1,85 @@
-*{
-    font-family: 'Roboto' , sans-serif;
+* {
+  font-family: "Roboto", sans-serif;
 }
-.header{
-
+.header {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
 }
-.logo{
-
+.logo {
 }
-.header-logo{
-
+.header-logo {
 }
-.hero{
-
+.hero {
 }
-.hero-right{
-
+.hero-right {
 }
-.signup{
-
+.main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
-.hero-left{
-
+.signup {
 }
-.why{
-
+.hero-left {
 }
-.growth{
-
+.fetures .title {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
 }
-.cap-title{
-
+.growth {
 }
-.caption{
-
+.cap-title {
 }
-.security{
-
+.caption {
 }
-.speed{
-
+.security {
 }
-.support{
-
+.speed {
 }
-.quote-div{
-
+.support {
 }
-.quote{
-
+.quote-div {
+  background-color: #e5e7eb;
 }
-.qoute-owner{
-
+.quote {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 300;
+  font-style: italic;
 }
-.action{
-
+.qoute-owner {
 }
-.how-to-sign{
-
+.action {
+}
+.how-to-sign {
+}
+.footer {
+}
+.header,
+.hero,
+.footer {
+  background-color: #1f2937;
+}
+.secondry-text,
+.header-link {
+  font-size: 18px;
+  color: #cdcfd3;
+}
+a {
+  text-decoration: none;
+}
+.call-to-action,
+.signup {
+  background-color: #3882f6;
+}
+.header-links {
+  display: flex;
+  gap: 8px;
+  margin-right: 24px;
+}
+ul {
+  list-style: none;
 }
